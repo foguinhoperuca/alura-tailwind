@@ -1,0 +1,19 @@
+body {
+	background-color: #222222;
+
+	position: relative;
+	width: 98%;
+	height: 100vh;
+	overflow: auto;
+	font-size: 14px;
+	margin: 15px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.main-box {
+	border: 5px solid red;
+	background-color: white;
+	color: green;
+	font-size: 150px;
+}
