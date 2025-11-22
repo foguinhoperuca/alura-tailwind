@@ -12,11 +12,14 @@
 		<script src="https://cdn.tailwindcss.com"></script>
 		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js"></' + 'script>')</script>
     </head>
-    <body>
-	  <main class="main-box">
-		Tailwind CSS
-		<br />
-		<button class="bg-green-500 text-white font-bold rounded-lg px-4 py-3">Click here!!</button>
+    <body class="bg-gradient-to-r from-purple-200 to-blue-800">
+	  <main class="bg-white flex flex-col lg:flex-row justify-center items-center w-4/5 mx-auto my-40 p-12 shadow-2xl opacity-50">
+		<img class="w-2/5 lg:w-1/5" alt="Tailwind Logo" src="./assets/img/logo-tailwind.png"/>
+		<h1 class="text-4xl lg:text-6xl font-black text-center">Hello Tailwind CSS!!</h1>
+		<div class="main-box">
+		  <span class="main-box__text">Tailwind CSS</span>
+		  <button class="main-box__button bg-green-500 text-white font-bold rounded-lg px-4 py-3">Click here!!</button>
+		</div>
 	  </main>
 	</body>
 </html>

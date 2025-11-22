@@ -1,19 +1,32 @@
 body {
-	background-color: #222222;
+	/* background-color: #888888; */
 
-	position: relative;
-	width: 98%;
-	height: 100vh;
-	overflow: auto;
-	font-size: 14px;
-	margin: 15px;
-	box-sizing: border-box;
-	text-align: center;
+	/* width: 100%; */
+	/* position: relative; */
+	/* overflow: auto; */
+	/* box-sizing: border-box; */
 }
 
 .main-box {
-	border: 5px solid red;
-	background-color: white;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+
+	margin: 10px;
+	padding: 10px;
+	height: 95vh;
+	border: 2px solid black;
+	border-radius: 50px;
+	background-color: #F0F0F0;
 	color: green;
-	font-size: 150px;
+	font-size: 80px;
+	text-align: center;
+}
+
+.main-box__text {
+	
+}
+
+.main-bot__button {
+	
 }
