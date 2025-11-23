@@ -27,6 +27,22 @@ body {
 	
 }
 
-.main-bot__button {
-	
+.tailwind-button {
+	background-size: 100%;
+	background-image: url(../img/logo-tailwind.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 10px;
+}
+
+.main-box__button {
+	font-size: 100px;
+}
+
+.main-box__github {
+	background-size: 100%;
+	background-image: url(../img/github-mark-white.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 40px;
 }
